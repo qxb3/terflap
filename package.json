@@ -1,0 +1,13 @@
+{
+  "name": "terflap",
+  "description": "Flappy bird clone but in terminal",
+  "version": "1.0.0",
+  "license": "MIT",
+  "start": "node src/index.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "type": "module"
+}
