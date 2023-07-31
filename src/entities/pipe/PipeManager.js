@@ -6,10 +6,10 @@ class PipeManager {
     this.game = game
 
     this.pipes = []
-    this.holeSize = 10
+    this.holeSize = 4
 
     setInterval(() => {
-      const topPipeChar = '######\n'.repeat(randomNumber(3, this.game.height - this.holeSize))
+      const topPipeChar = '######\n'.repeat(randomNumber(3, this.game.height - (this.holeSize / 2)))
       const topPipe = new Pipe(
         topPipeChar,
         -1,

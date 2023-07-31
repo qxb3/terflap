@@ -9,5 +9,8 @@
     "start": "node src/index.js",
     "dev": "node --watch src/index.js"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "figlet": "^1.6.0"
+  }
 }
